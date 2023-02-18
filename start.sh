@@ -9,4 +9,4 @@ fi
 cd /piro
 pip3 install -U -r requirements.txt
 echo "Starting PiroAutoFilterBot...."
-python bot.py
+python bot3.py
