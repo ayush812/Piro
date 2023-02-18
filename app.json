@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/ritheshrkrm/PiroAutoFilterBot",
-    "repository": "https://github.com/ritheshrkrm/PiroAutoFilterBot",
+    "website": "https://github.com/ayush812/Piro",
+    "repository": "https://github.com/ayush812/Piro",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
@@ -75,7 +75,7 @@
     "formation": {
         "worker": {
             "quantity": 1,
-            "size": "free"
+            "size": "eco"
         }
     }
 }
