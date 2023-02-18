@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/ritheshrkrm/PiroAutoFilterBot.git /PiroAutoFilterBot
+  git clone https://github.com/ayush812/Piro.git /piro
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /PiroAutoFilterBot
+  git clone $UPSTREAM_REPO /piro
 fi
-cd /PiroAutoFilterBot
+cd /piro
 pip3 install -U -r requirements.txt
 echo "Starting PiroAutoFilterBot...."
-python3 bot.py
+python bot.py
